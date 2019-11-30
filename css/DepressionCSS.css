@@ -1,0 +1,97 @@
+html {
+	font-family: 'Arial Black';}
+
+head, body {
+	margin: 40px;
+	margin-top: 10px;
+	margin-bottom: 20px;}
+
+p {
+	margin: 2px;
+	font-size: 1em;}
+
+body {
+	font-size: .8em;
+	margin: 80px;
+	margin-top: 40px;}
+	
+main {
+	margin-top: 0px;
+	padding: 35px;
+	border-radius: 0px 10px 0px 0px;}
+
+div {
+	background-color: WHITE;
+	padding: 10px;
+	text-align: center;}
+
+.leftcol {
+	float: left;
+	position: relative;
+}
+
+.rightcol {
+	float: right;
+	position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+	font-size: 2em;}
+
+header nav ul {
+	display: flex;
+	width: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+	border-radius: 10px 10px 0px 0px;}
+	header nav li {
+		list-style-type: none;
+		background-color: WHITE;
+		padding: 10px;
+		padding-right: 10px;
+		padding-left: 10px;
+		margin-bottom: 7px;
+		margin-left: 30px;
+		font-weight: bold;
+		box-shadow: 5px 5px 5px;
+		font-size: 1em;
+		border: 1px;
+		border-style: solid;
+		border-width: 2px;}
+		nav li a:link {
+			color: BLACK;
+			text-decoration: none;}
+		nav li a:visited {
+			color: BLACK;}
+		nav li a:hover {
+			color: BLUE;}
+		nav li a:active {
+			color: RED;}
+
+.activepage {
+	background-color: rgb(210,210,210);
+	padding: 10px;
+	padding-right: 20px;
+	padding-left: 20px; }
+
+header nav ul, main {
+	background-color: GREY; }
+
+/*FOOTER INFORMATION*/
+footer {
+	text-align: center;
+	padding: 5px;
+	border-radius: 0px 0px 10px 10px;
+	background-color: BLACK;
+	color: WHITE;
+	border-color: rgba(150,129,64,.99); }
+footer nav ul {
+	margin: 10px; }
+footer nav li {
+	font-weight: bold;
+	text-decoration: underline;
+	display: inline;
+	margin: 10px;
+	list-style-type: none; }
