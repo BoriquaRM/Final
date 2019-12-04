@@ -1,59 +1,72 @@
 html {
-	font-family: 'Arial Black';}
-
+	font-family: 'Arial Black';
+	width: 1000px; /*MAX Width of the Page*/
+	margin-left: auto;
+	margin-right: auto;}
 head, body {
-	margin: 40px;
 	margin-top: 10px;
 	margin-bottom: 20px;}
-
 p {
-	margin: 2px;
-	font-size: 1em;}
-
+	text-align: center;
+	margin: 12px;
+	font-size: 1.1em;}
+.content {
+	text-align: left;}
 body {
 	font-size: .8em;
 	margin: 80px;
 	margin-top: 40px;}
-	
 main {
 	margin-top: 0px;
-	padding: 35px;
+	padding: 20px 35px 1px 35px;
 	border-radius: 0px 10px 0px 0px;}
-
 div {
 	background-color: WHITE;
-	padding: 10px;
-	text-align: center;}
-
-.leftcol {
-	float: left;
-	position: relative;
-}
-
-.rightcol {
-	float: right;
-	position: relative;
-}
-
-h1, h2, h3, h4, h5, h6 {
+	padding: 10px 35px 35px 35px;
 	text-align: center;
-	font-size: 2em;}
-
+	border-radius: 5px;}
+img {
+	box-shadow: 7px 7px 10px;
+	margin: 10px;}
+h1, h2, h3, h4, h5, h6, a.button {
+	text-align: center;
+	margin: 20px auto 20px auto;
+	display: block;}
+h3 {
+	color: RED;}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: BLACK;
+	padding: 10px 40px 10px 40px;
+	width: max-content;}
+.title:after {
+	content: "DEPRESSION";}
+.subtitle {
+	margin-top: -22px;}
+.subtitle:after {
+	content: "''Knowledge is power''";}
+.maintitle {
+	color: WHITE;}
 header nav ul {
 	display: flex;
-	width: 20px;
+	width: 45px;
 	padding-top: 20px;
 	padding-bottom: 10px;
 	margin-bottom: 0px;
 	border-radius: 10px 10px 0px 0px;}
+	header nav li:first-child {
+		margin-left: 50px;}
 	header nav li {
 		list-style-type: none;
 		background-color: WHITE;
-		padding: 10px;
-		padding-right: 10px;
-		padding-left: 10px;
-		margin-bottom: 7px;
-		margin-left: 30px;
+		padding: 12px;
+		padding-right: 6px;
+		padding-left: 6px;
+		margin-bottom: -17px;
+		margin-left: 10px; /*Space between navigation links*/
 		font-weight: bold;
 		box-shadow: 5px 5px 5px;
 		font-size: 1em;
@@ -69,15 +82,38 @@ header nav ul {
 			color: BLUE;}
 		nav li a:active {
 			color: RED;}
+		nav li a.activepage {
+			background-color: rgb(120,120,120);
+			padding: 10px;
+			padding-right: 10px;
+			padding-left: 10px;
+			color: WHITE;}
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto;
+	padding: 10px;}
+.grid-item, .mini-grid-item {
+	border: 2px solid rgba(0, 0, 0, 0.2);
+	padding: 20px;
+	margin: -1px;
+	text-align: center;
+	width: auto;}
+.mini-grid-item {
+	background-color: WHITE;
+	width: 150px;
+	padding: 0px;
+	font-size: 1.7em;
+	z-index: 1;}
 
-.activepage {
-	background-color: rgb(210,210,210);
-	padding: 10px;
-	padding-right: 20px;
-	padding-left: 20px; }
-
+ol {
+	text-align: left;}
+ol li {
+	margin: 5px;}
+ul {
+	padding-left: 2px;
+	text-align: left;}
 header nav ul, main {
-	background-color: GREY; }
+	background-color: #35608fff;} /*MAIN BODY COLOR*/
 
 /*FOOTER INFORMATION*/
 footer {
@@ -86,12 +122,16 @@ footer {
 	border-radius: 0px 0px 10px 10px;
 	background-color: BLACK;
 	color: WHITE;
-	border-color: rgba(150,129,64,.99); }
+	border-color: rgba(150,129,64,.99);}
 footer nav ul {
-	margin: 10px; }
+	margin: 10px;}
 footer nav li {
 	font-weight: bold;
 	text-decoration: underline;
 	display: inline;
 	margin: 10px;
-	list-style-type: none; }
+	list-style-type: none;}
+.footerp {
+	margin: 2px;}
+footer a {
+	color: GREY;}
