@@ -19,36 +19,50 @@
 			</nav>
 		</header>
 		<main>
-			<h1 class="maintitle">ACTION / RESOURCES</h1>
-			<div class="grid-container">
-				<div class="grid-item">
-					<h2>The best help...</h2>
-					<p>comes from family and friends who treat depressed individuals not as broken things, but someone who needs help. They are not bad people, nor are they indeed broken.</p>
-					<h2>... starts with a hand.</h2>
-					<p>comes from family and friends who treat depressed individuals not as broken things, but someone who needs help. They are not bad people, nor are they indeed broken.</p>
-				</div>
-				<div class="grid-item">
-					<img src="../images/besthelp.svg" alt="The best help"/>
-					<h3>One friend...</h3><hr>
-					<img src="../images/alittlehelp.svg" alt="The best help"/>
-					<h3>... is all is takes</h3>
-				</div>
-			</div>
+			<h1 class="maintitle">CALL-TO-ACTION / RESOURCES</h1>
 			<div>
-				<img src="../images/takestime.svg" alt="The best help"/><br>
-				<h2>It may take time, but finding happiness will become natural.</h2><hr>
-				<h3>List of Resourses Used:</h3>
-				<ol>
-					<li><a href="https://www.psychiatry.org/patients-families/depression/what-is-depression">What Is Depression?</a></li>
-					<li><a href="https://www.samhsa.gov/find-help/national-helpline">SAMHSA’s National Helpline</a>
-						<ul><li>1-800-662-HELP</li></ul></li>
-					<li><a href="https://www.dbsalliance.org/education/depression/statistics/">Depression Statistics</a></li>
-					<li><a href="https://www.webmd.com/depression/features/anxiety-depression-mix#1">What to Do When Depression and Anxiety Mix</a></li>
-					<li><a href="https://adaa.org/understanding-anxiety/depression">Depression Facts</a></li>
-					<li><a href="https://ourworldindata.org/mental-health#anxiety-disorders">Anxiety disorders</a></li>
-					<li><a href="https://www.mayoclinic.org/diseases-conditions/depression/expert-answers/depression-and-anxiety/faq-20057989">Is it possible to have depression and anxiety at the same time?</a></li>
-					<li><a href="https://www.verywellmind.com/who-discovered-depression-1066770#earliest-accounts-of-depression">The History of Depression</a></li>
-				</ol>
+			
+				<img src="../images/act.png" alt="image about Actions Page"/>
+			
+				<div class="grid-container">
+					<div class="grid-item">
+						<form action="action_page.php" method="get">
+								<fieldset>
+									<legend>Personal Info</legend>
+										<input type="text" size="30" title="First name" placeholder="First name" name="firstname" required /><br>
+										<input type="text" size="30" title="Last name" placeholder="Last name" name="lastname" required /><br>
+										<input type="email" name="email" placeholder="YourEmail@address.com" size="45" title="Insert email address" required /><br>
+										<input type="tel" name="tel" size="12" placeholder="xxx-xxx-xxxx" title="Insert phone number" required />
+										<select title="Reason for visiting..."> 
+											<option>Request Self Help</option>
+											<option>Request Help for Other</option>
+											<option>Offer Help for Other</option>
+											<option>Report Abuse</option>
+											<option>Other...</option>
+										</select>
+								</fieldset>
+								<fieldset>
+									<legend>Comments</legend>
+										<textarea name="comment" rows="10" placeholder="Any notes about the trip...?" ></textarea><br>
+								</fieldset>
+								<button type="submit" formaction="#">Book it!</button>
+							</form>
+					</div>
+					<div class="grid-item">
+						<h3>List of Resourses Used:</h3><hr>
+						<ol>
+							<li><a href="https://www.psychiatry.org/patients-families/depression/what-is-depression">What Is Depression?</a></li>
+							<li><a href="https://www.samhsa.gov/find-help/national-helpline">SAMHSA’s National Helpline</a>
+								<ul><li>1-800-662-HELP</li></ul></li>
+							<li><a href="https://www.dbsalliance.org/education/depression/statistics/">Depression Statistics</a></li>
+							<li><a href="https://www.webmd.com/depression/features/anxiety-depression-mix#1">What to Do When Depression and Anxiety Mix</a></li>
+							<li><a href="https://adaa.org/understanding-anxiety/depression">Depression Facts</a></li>
+							<li><a href="https://ourworldindata.org/mental-health#anxiety-disorders">Anxiety disorders</a></li>
+							<li><a href="https://www.mayoclinic.org/diseases-conditions/depression/expert-answers/depression-and-anxiety/faq-20057989">Is it possible to have depression and anxiety at the same time?</a></li>
+							<li><a href="https://www.verywellmind.com/who-discovered-depression-1066770#earliest-accounts-of-depression">The History of Depression</a></li>
+						</ol>
+					</div>
+				</div>
 			</div>
 			<a href="../index.html" class="button">Return to "Welcome"</a>
 		</main>
