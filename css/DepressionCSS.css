@@ -1,14 +1,14 @@
 html {
 	font-family: 'Arial Black', sans-serif;
 	min-width: 975px; /*MIN Width of the Page*/
-	max-width: 1300px; /*MAX Width of the Page*/
+	max-width: 1000px; /*MAX Width of the Page*/
 	margin-left: auto;
 	margin-right: auto;}
 head, body {
 	margin-top: 10px;
 	margin-bottom: 20px;}
 p {
-	text-align: center;
+	text-align: left;
 	margin: 12px;
 	font-size: 1.1em;}
 .content {
@@ -20,40 +20,51 @@ body {
 main {
 	margin-top: 0px;
 	padding: 20px 25px 1px 25px;
-	border-radius: 0px 10px 0px 0px;}
+	border-radius: 10px 10px 0px 0px;}
 div {
 	background-color: WHITE;
-	padding: 15px;
+	padding: 15px 30px 15px 30px;
 	text-align: center;
 	border-radius: 5px;}
 img {
 	margin: auto;
-	width: 70%;}
+	max-width: 700px;}
 .shadow {
 	box-shadow: 7px 7px 10px;
 	margin: 10px;}
 h1, h2, h3, h4, h5, h6, a.button {
 	text-align: center;
-	margin: 20px auto 20px auto;
+	margin: 0px auto 20px auto;
 	display: block;}
 h2 {
-
-	font-size: 2.5em;
-	color: #35608fff;
-	text-shadow: 2px 2px 2px;
-	-webkit-text-stroke-width: 1px; 
-    -webkit-text-stroke-color: WHITE;  }
+	font-size: 2.6em;
+	margin: 20px auto 20px auto;
+	color: #35608fff;}
 h3 {
 	margin: 10px;
-	color: RED;}
+	color: #35608fff;}
 a.button {
+	margin-top: 20px;
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
     text-decoration: none;
+	background-color: WHITE;
     color: BLACK;
-	padding: 10px 40px 10px 40px;
-	width: max-content;}
+	padding: 30px 50px 30px 50px;
+	width: max-content;
+	box-shadow: 7px 7px 10px;
+	font-size: x-large;}
+button {
+	border-width: 4px;
+	display: block;
+	margin: 30px auto 30px auto;
+	background-color: WHITE;
+	padding: 20px 30px 20px 30px;
+	box-shadow: 7px 7px 10px;
+	font-size: 30px;
+	font-family: 'Arial Black', sans-serif;
+	border-radius: 20px;}
 .title:after {
 	content: "DEPRESSION";}
 .subtitle {
@@ -62,27 +73,20 @@ a.button {
 	content: "''Knowledge is power''";}
 .maintitle {
 	color: WHITE;}
+nav {}
 header nav ul {
 	display: flex;
-	width: 45px;
-	padding-top: 20px;
 	padding-bottom: 10px;
 	margin-bottom: 0px;
 	border-radius: 10px 10px 0px 0px;}
-	header nav li:first-child {
-		margin-left: 20px;}
 	header nav li {
 		list-style-type: none;
-		background-color: WHITE;
-		padding: 12px;
-		padding-right: 16px;
-		padding-left: 16px;
-		margin-bottom: -17px;
-		margin-left: 10px; /*Space between navigation links*/
+		background-color:WHITE;
+		padding: 12px 15px 12px 15px;
+		margin-left: 13px;
 		font-weight: bold;
 		box-shadow: 5px 5px 5px;
 		font-size: 1.5em;
-		border: 1px;
 		border-style: solid;
 		border-width: 2px;}
 		nav li a:link {
@@ -90,18 +94,21 @@ header nav ul {
 			text-decoration: none;}
 		nav li a:visited {
 			color: BLACK;}
-		nav li a:hover {
-			color: BLUE;}
+		nav li a:hover, button:hover {
+			color: PURPLE;}
 		nav li a:active {
 			color: RED;}
 		nav li a.activepage {
-			background-color: rgb(120,120,120,.75);
-			padding: 10px;
-			padding-right: 10px;
-			padding-left: 10px;
-			color: WHITE;}
+			background-color: rgb(180,180,180,.75);
+			padding: 10px 30px 11px 30px;
+			color: PURPLE;
+			margin-left: -12px;
+			margin-right: -12px;}
 		nav li a.activepage:hover {
-			color: rgb(128,0,128);	}
+			color: WHITE;}
+button:hover {
+	color: BLUE;
+	box-shadow: 7px 7px 10px BLACK;}
 .grid-container {
 	display: grid;
 	grid-template-columns: auto auto;
@@ -137,17 +144,18 @@ ol li {
 ul {
 	padding-left: 2px;
 	text-align: left;}
-header nav ul, main {
+main {
 	background-color: #35608fff;} /*MAIN BODY COLOR*/
 
 /*FOOTER INFORMATION*/
 footer {
-	text-align: center;
 	padding: 5px;
 	border-radius: 0px 0px 10px 10px;
 	background-color: BLACK;
 	color: WHITE;
 	border-color: rgba(150,129,64,.99);}
+footer p {
+	text-align: center;}
 footer nav ul {
 	margin: 10px;}
 footer nav li {
