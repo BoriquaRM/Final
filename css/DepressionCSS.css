@@ -2,8 +2,7 @@ html {
 	font-family: 'Arial Black', sans-serif;
 	min-width: 975px; /*MIN Width of the Page*/
 	max-width: 1000px; /*MAX Width of the Page*/
-	margin-left: auto;
-	margin-right: auto;}
+	margin: 0px auto 10px auto;}
 head, body {
 	margin-top: 10px;
 	margin-bottom: 20px;}
@@ -13,21 +12,28 @@ p {
 	font-size: 1.1em;}
 .content {
 	text-align: left;}
+header {
+	margin-top: -20px;}
 body {
 	font-size: .8em;
 	margin: 80px;
 	margin-top: 40px;}
 main {
+	border-style: solid;
+	border-width: 2px;
+	background-color: #35608fff; /*MAIN BODY COLOR*/
 	margin-top: 0px;
 	padding: 20px 25px 1px 25px;
 	border-radius: 10px 10px 0px 0px;}
 div {
+	border-style: solid;
+	border-width: 2px;
 	background-color: WHITE;
 	padding: 15px 30px 15px 30px;
 	text-align: center;
 	border-radius: 5px;}
 img {
-	margin: auto;
+	margin-top: 14px;
 	max-width: 700px;}
 .shadow {
 	box-shadow: 7px 7px 10px;
@@ -39,7 +45,7 @@ h1, h2, h3, h4, h5, h6, a.button {
 h2 {
 	font-size: 2.6em;
 	margin: 20px auto 20px auto;
-	color: #35608fff;}
+	color: #008080ff;}
 h3 {
 	margin: 10px;
 	color: #35608fff;}
@@ -64,7 +70,7 @@ button {
 	box-shadow: 7px 7px 10px;
 	font-size: 30px;
 	font-family: 'Arial Black', sans-serif;
-	border-radius: 20px;}
+	border-radius: 5px;}
 .title:after {
 	content: "DEPRESSION";}
 .subtitle {
@@ -77,15 +83,16 @@ nav {}
 header nav ul {
 	display: flex;
 	padding-bottom: 10px;
-	margin-bottom: 0px;
-	border-radius: 10px 10px 0px 0px;}
+	margin-bottom: -12px;
+	border-radius: 10px 10px 0px 0px;
+	margin-top: 20px;}
 	header nav li {
+		border-radius: 13px 13px 0px 0px;
 		list-style-type: none;
 		background-color:WHITE;
-		padding: 12px 15px 12px 15px;
+		padding: 12px 15px 9px 15px;
 		margin-left: 13px;
 		font-weight: bold;
-		box-shadow: 5px 5px 5px;
 		font-size: 1.5em;
 		border-style: solid;
 		border-width: 2px;}
@@ -99,26 +106,36 @@ header nav ul {
 		nav li a:active {
 			color: RED;}
 		nav li a.activepage {
-			background-color: rgb(180,180,180,.75);
-			padding: 10px 30px 11px 30px;
-			color: PURPLE;
-			margin-left: -12px;
-			margin-right: -12px;}
+			border-radius: 10px 10px 0px 0px;
+			background-color: #35608fff;
+			padding: 13px 30px 11px 30px;
+			color: WHITE;
+			margin-left: -15px;
+			margin-right: -15px;}
 		nav li a.activepage:hover {
 			color: WHITE;}
 button:hover {
 	color: BLUE;
 	box-shadow: 7px 7px 10px BLACK;}
 .grid-container {
+	border-style: none;
+	border-width: 0px;
+	display: grid;
+	grid-template-columns: 20% 60% 20%;
+	padding: 5px;}
+.grid-container2 {
+	border-style: none;
+	border-width: 0px;
 	display: grid;
 	grid-template-columns: auto auto;
-	padding: 10px;}
+	padding: }
 .grid-item, .mini-grid-item {
 	border: 2px solid rgba(0, 0, 0, 0.2);
-	padding: 20px;
+	padding: 10px;
 	margin: -1px;
 	text-align: center;
-	width: auto;}
+	width: auto;
+	background-color: rgb(245,245,245);}
 .mini-grid-item {
 	background-color: WHITE;
 	width: 150px;
@@ -126,13 +143,15 @@ button:hover {
 	font-size: 1.7em;
 	z-index: 1;}
 fieldset {
-	border: 1px solid #333;
+	border: 2px solid rgba(0, 0, 0, 0.1);
 	margin: 0;
 	font-size: .6em;
 	box-sizing: border-box;
 	text-align: left;
 	margin-bottom: 10px;}
 legend {
+	padding-left: 15px;
+	padding-right: 15px;
 	font-size: 15px;}
 textarea {
 	width: 98%;}
@@ -144,15 +163,13 @@ ol li {
 ul {
 	padding-left: 2px;
 	text-align: left;}
-main {
-	background-color: #35608fff;} /*MAIN BODY COLOR*/
 
 /*FOOTER INFORMATION*/
 footer {
-	padding: 5px;
+	padding: 6px;
 	border-radius: 0px 0px 10px 10px;
 	background-color: BLACK;
-	color: WHITE;
+	color: rgb(220,220,220);
 	border-color: rgba(150,129,64,.99);}
 footer p {
 	text-align: center;}

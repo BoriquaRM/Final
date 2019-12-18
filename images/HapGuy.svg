@@ -15,7 +15,7 @@
    version="1.1"
    id="svg1927"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="DepGuy.svg">
+   sodipodi:docname="HapGuy.svg">
   <defs
      id="defs1921" />
   <sodipodi:namedview
@@ -54,33 +54,15 @@
      id="layer1"
      transform="translate(0,-261.39998)">
     <path
-       sodipodi:nodetypes="ccccc"
-       inkscape:connector-curvature="0"
-       id="path838-2-5"
-       d="m 10.97186,272.97191 c 2.760624,6.55342 2.506686,14.25523 -1.0086766,23.19955 H 21.170699 c 0.110396,-12.47772 -3.110808,-20.64396 -8.069415,-26.56182 z"
-       style="fill:#666666;stroke:#f9f9f9;stroke-width:0.31200317;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <circle
-       r="7.396956"
-       cy="274.79843"
-       cx="7.9638648"
-       id="path836-1-4"
-       style="opacity:1;fill:#666666;fill-opacity:1;fill-rule:nonzero;stroke:#f9f9f9;stroke-width:0.31200317;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
-    <path
-       sodipodi:nodetypes="cc"
-       inkscape:connector-curvature="0"
-       id="path840-6-6"
-       d="m 5.1242814,279.80479 c 1.356041,-0.92524 3.354621,-2.08104 6.2541876,-0.4169"
-       style="fill:none;stroke:#ffffff;stroke-width:0.62400633;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
        sodipodi:nodetypes="cccc"
        inkscape:connector-curvature="0"
        id="path1064-8"
-       d="m 39.357399,275.55468 c 4.326996,3.6567 5.355351,5.09337 3.518262,20.64666 H 30.379158 c 8.194301,-7.65546 5.916448,-16.09881 3.62429,-26.04978"
+       d="m 11.765137,275.55468 c 4.326996,3.6567 5.355351,5.09337 3.518262,20.64666 H 2.7868963 c 8.1943007,-7.65546 5.916448,-16.09881 3.62429,-26.04978"
        style="fill:#f9f9f9;fill-opacity:1;stroke:#808080;stroke-width:0.29517686;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:7;stroke-dasharray:none;stroke-opacity:1" />
     <circle
        r="6.9980397"
        cy="269.07791"
-       cx="-40.901463"
+       cx="-13.309201"
        id="circle1066-0"
        style="opacity:1;fill:#f9f9f9;fill-opacity:1;fill-rule:nonzero;stroke:#808080;stroke-width:0.29517689;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        transform="scale(-1,1)" />
@@ -88,7 +70,7 @@
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path1068-1"
-       d="m 44.042108,271.73288 c -1.28309,1.32051 -5.036648,1.39914 -6.03522,-0.19726"
+       d="m 16.449846,271.73288 c -1.28309,1.32051 -5.036648,1.39914 -6.03522,-0.19726"
        style="fill:none;stroke:#808080;stroke-width:0.59035373;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
 </svg>
