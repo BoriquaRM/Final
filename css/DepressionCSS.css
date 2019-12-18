@@ -44,33 +44,27 @@ h1, h2, h3, h4, h5, h6, a.button {
 	display: block;}
 h2 {
 	font-size: 2.6em;
-	margin: 20px auto 20px auto;
+	margin: 10px auto 10px auto;
 	color: #008080ff;}
 h3 {
 	margin: 10px;
 	color: #35608fff;}
-a.button {
-	margin-top: 20px;
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-    text-decoration: none;
-	background-color: WHITE;
-    color: BLACK;
-	padding: 30px 50px 30px 50px;
-	width: max-content;
-	box-shadow: 7px 7px 10px;
-	font-size: x-large;}
 button {
 	border-width: 4px;
 	display: block;
 	margin: 30px auto 30px auto;
 	background-color: WHITE;
 	padding: 20px 30px 20px 30px;
-	box-shadow: 7px 7px 10px;
+	box-shadow: 2px 2px 5px;
 	font-size: 30px;
 	font-family: 'Arial Black', sans-serif;
 	border-radius: 5px;}
+button:hover {
+	box-shadow: 4px 4px 10px BLACK;}
+button:active {
+	color: RED;
+	box-shadow: 4px 4px 10px BLACK;
+	padding: 22px 28px 18px 32px;}
 .title:after {
 	content: "DEPRESSION";}
 .subtitle {
@@ -103,7 +97,7 @@ header nav ul {
 			color: BLACK;}
 		nav li a:hover, button:hover {
 			color: PURPLE;}
-		nav li a:active {
+		nav li a:active, button:active {
 			color: RED;}
 		nav li a.activepage {
 			border-radius: 10px 10px 0px 0px;
@@ -114,9 +108,6 @@ header nav ul {
 			margin-right: -15px;}
 		nav li a.activepage:hover {
 			color: WHITE;}
-button:hover {
-	color: BLUE;
-	box-shadow: 7px 7px 10px BLACK;}
 .grid-container {
 	border-style: none;
 	border-width: 0px;
@@ -131,11 +122,16 @@ button:hover {
 	padding: }
 .grid-item, .mini-grid-item {
 	border: 2px solid rgba(0, 0, 0, 0.2);
-	padding: 10px;
+	padding: 15px;
 	margin: -1px;
 	text-align: center;
 	width: auto;
-	background-color: rgb(245,245,245);}
+	background-color: rgb(245,245,245);
+	border-radius: 0px;}
+.grid-item:first-child {
+	border-radius: 10px 0px 0px 10px;}
+.grid-item:last-child {
+	border-radius: 0px 10px 10px 0px;}
 .mini-grid-item {
 	background-color: WHITE;
 	width: 150px;
