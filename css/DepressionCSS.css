@@ -32,21 +32,36 @@ div {
 	padding: 15px 30px 15px 30px;
 	text-align: center;
 	border-radius: 5px;}
+div.dark, div.blah {
+	background-color: rgb(53, 96, 143);
+	color: WHITE;
+	margin: -6px auto auto auto;
+	border-radius: 0px 0px 30px 30px;
+	width: 90%;
+	padding: 15px;}
+div.blah {
+	border-radius: 20px;
+	background-color: rgba(50,50,120,.7);
+	border: 10px solid #35608fff;}
+div.gap {
+	height: 30px;
+	border: none;}
 img {
 	margin-top: 14px;
 	max-width: 600px;}
 .shadow {
-	box-shadow: 7px 7px 10px;
+	box-shadow: 5px 5px 5px GREY;
 	margin: 10px;}
 h1, h2, h3, h4, h5, h6, a.button {
 	text-align: center;
-	margin: 0px auto 20px auto;
+	margin: 20px auto 20px auto;
 	display: block;}
 h2 {
-	font-size: 2.6em;
+	font-size: 32px;
 	margin: 10px auto 10px auto;
 	color: #008080ff;}
 h3 {
+	font-size: 15px;
 	margin: 10px;
 	color: #35608fff;}
 button {
@@ -126,7 +141,7 @@ header nav ul {
 	margin: -1px;
 	text-align: center;
 	width: auto;
-	background-color: rgb(245,245,245);
+	background-color: rgba(245,245,245,.4);
 	border-radius: 0px;
 	box-shadow: inset 0px 0px 10px BLACK;}
 .grid-item:first-child {
@@ -146,8 +161,10 @@ div.dasheddiv {
 	border: none;
 	padding: 0px 15px 0px 15px;}
 div.dasheddiv img {
-	box-shadow: 5px 5px 5px GREY;
-}
+	box-shadow: 5px 5px 5px GREY;}
+div img.mini {
+	box-shadow: none;
+	max-width: 300px;}
 div.dashedL, div.dashedR, div.dashedRlast, div.dashedLfirst {
 	border: 4px dashed rgb(180,180,180);
 	border-radius: 0px 0px 0px 35px;
@@ -167,18 +184,14 @@ div.yearL p, div.yearR p {
 div.yearL, div.yearR {
 	width: max-content;
 	padding: 0px;
-	font-size: 43px;
+	font-size: 70px;
 	position: static;}
 .yearbold, .yeartitle {
-	font-size: 45px;
-	margin-right: 5px;
-	margin-left: 10px;}
+	font-size: 45px;}
 	.yeartitle {
 		margin-right: 10px;
 		font-size: 40px;
-		color: #bbd1e8;
-		-webkit-text-stroke-width: 2px;
-		-webkit-text-stroke-color: black;}
+		color: #35608f;}
 div.yearcolumnL, div.yearcolumnR, div.yearcolumnM {
 	display: flex;
 	border: none;
@@ -192,6 +205,9 @@ div.yearcolumnR {
 div.yearcolumnM {
 	float: right;
 	margin-right: 100px;}
+
+sup {
+	font-size: 22px;}
 
 fieldset {
 	border: 2px solid rgba(0, 0, 0, 0.1);
